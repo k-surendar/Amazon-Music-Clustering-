@@ -19,7 +19,6 @@ This project groups Amazon Music songs into clusters based on audio features usi
 - K-Means Clustering
 - PCA
 - DBSCAN
-- Hierarchical Clustering
 
 ## Evaluation Metrics
 - Silhouette Score
@@ -30,7 +29,6 @@ This project groups Amazon Music songs into clusters based on audio features usi
 - Pandas
 - Scikit-learn
 - Matplotlib
-- Streamlit
 
 ## Results
 Successfully grouped songs into meaningful clusters such as:
@@ -38,9 +36,3 @@ Successfully grouped songs into meaningful clusters such as:
 - Chill Acoustic
 - Instrumental
 - Relaxing Tracks
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
